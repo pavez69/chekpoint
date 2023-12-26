@@ -73,8 +73,15 @@ section {
 
 }
 
-.contenedortable {
-   width: 100%;
+.contenedorLista{
+   display:flex;
+   flex-direction: column;
+  
+}
+.contenedorTabla{
+    display:flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 ul, table {
